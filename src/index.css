@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    background: #292929
+}
+
+.custom-shape-divider-top-1710200736 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1710200736 svg {
+    position: relative;
+    display: block;
+    width: calc(130% + 1.3px);
+    height: 269px;
+}
+
+.custom-shape-divider-top-1710200736 .shape-fill {
+    fill: #499cd3;
+}
